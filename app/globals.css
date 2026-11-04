@@ -417,10 +417,10 @@ button {
   inset: 0;
   background: repeating-conic-gradient(
     from 180deg at 50% -8%,
-    rgba(225, 224, 255, 0) 0deg,
-    rgba(225, 224, 255, 0.16) 2.5deg,
-    rgba(225, 224, 255, 0) 6deg,
-    rgba(225, 224, 255, 0) 9deg
+    rgba(240, 246, 210, 0) 0deg,
+    rgba(240, 246, 210, 0.16) 2.5deg,
+    rgba(240, 246, 210, 0) 6deg,
+    rgba(240, 246, 210, 0) 9deg
   );
   -webkit-mask-image: radial-gradient(ellipse 55% 75% at 50% 0%, #0d1424 20%, transparent 75%);
   mask-image: radial-gradient(ellipse 55% 75% at 50% 0%, #0d1424 20%, transparent 75%);
@@ -537,7 +537,7 @@ button {
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(19, 31, 58, 0.92) 0%, rgba(32, 36, 52, 0.6) 42%, rgba(40, 36, 92, 0.5) 70%, rgba(18, 29, 55, 0.9) 100%);
+    linear-gradient(180deg, rgba(19, 31, 58, 0.92) 0%, rgba(32, 36, 52, 0.6) 42%, rgba(44, 52, 20, 0.5) 70%, rgba(18, 29, 55, 0.9) 100%);
   mix-blend-mode: normal;
 }
 .hero-grid {
@@ -720,7 +720,7 @@ button {
   z-index: -1;
   background:
     radial-gradient(ellipse 70% 55% at 50% 70%, rgba(195, 212, 90, 0.55), transparent 70%),
-    linear-gradient(180deg, transparent 0, transparent 120px, #141a2a calc(36vh + 140px), #15132e 60%, #241f5c 100%);
+    linear-gradient(180deg, transparent 0, transparent 120px, #141a2a calc(36vh + 140px), #141b15 60%, #2a3210 100%);
 }
 .showcase-stage {
   position: relative;
@@ -814,7 +814,7 @@ button {
   padding: 18px;
   border-radius: 16px;
   background: linear-gradient(160deg, rgba(195, 212, 90, 0.32), rgba(94, 107, 15, 0.32));
-  border: 1px solid rgba(225, 224, 255, 0.35);
+  border: 1px solid rgba(240, 246, 210, 0.35);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.7);
@@ -1442,10 +1442,10 @@ button {
   z-index: -1;
   background: repeating-conic-gradient(
     from 180deg at 50% -15%,
-    rgba(225, 224, 255, 0) 0deg,
-    rgba(225, 224, 255, 0.18) 3deg,
-    rgba(225, 224, 255, 0) 7deg,
-    rgba(225, 224, 255, 0) 10deg
+    rgba(240, 246, 210, 0) 0deg,
+    rgba(240, 246, 210, 0.18) 3deg,
+    rgba(240, 246, 210, 0) 7deg,
+    rgba(240, 246, 210, 0) 10deg
   );
   -webkit-mask-image: radial-gradient(ellipse 60% 85% at 50% 0%, #0d1424 15%, transparent 70%);
   mask-image: radial-gradient(ellipse 60% 85% at 50% 0%, #0d1424 15%, transparent 70%);
@@ -1521,7 +1521,7 @@ button {
   padding: 2px 6px;
   border-radius: 4px;
   background: rgba(94, 107, 15, 0.55);
-  color: #cfd6f2;
+  color: #e6edb8;
 }
 .footer-contact {
   display: flex;
@@ -1828,7 +1828,7 @@ button {
   padding: 4px 8px;
   border-radius: 6px;
   background: rgba(195, 212, 90, 0.2);
-  color: #cfd6f2;
+  color: #e6edb8;
 }
 .plan-name {
   font-size: 15px;
@@ -2119,7 +2119,7 @@ fieldset.field {
 .form-status.ok {
   background: rgba(195, 212, 90, 0.12);
   border: 1px solid rgba(195, 212, 90, 0.4);
-  color: #d4dbf5;
+  color: #e6edb8;
 }
 .form-status.err {
   background: rgba(239, 98, 98, 0.1);
